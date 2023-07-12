@@ -3,7 +3,7 @@
 
         public $attachment;
         private $deliveryNotification;
-        public static $ledColor = "Yellow";
+        public static $ledColor = "Green";
 
             function __construct(String $sender, String $receiver, String $title, String $content, Bool $deliveryNotification){
                 parent::__construct($sender, $receiver, $title, $content);

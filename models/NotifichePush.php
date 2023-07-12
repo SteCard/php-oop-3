@@ -1,9 +1,9 @@
 <?php
-    class PushNotifications extends CommunicationSystem{
+    class NotifichePush extends CommunicationSystem{
 
         private $visible;
         private $icon;
-        public static $ledColor = "White";
+        public static $ledColor = "Red";
 
             function __construct(String $sender, String $receiver, String $title, String $content, Bool $visible, String $icon){
                 parent::__construct($sender, $receiver, $title, $content);
@@ -27,7 +27,7 @@
 
             // POLIMORFISMO FUNCTION "SEND"
             public function send(){
-                return "Notifica inviata";
+                return "Notifica Push inviata";
             }
     }
 ?>

@@ -3,7 +3,7 @@
 
         private $readNotification;
         private $replyApproval;
-        public static $ledColor = "Green";
+        public static $ledColor = "Blue";
 
             function __construct(String $sender, String $receiver, String $title, String $content, Bool $readNotification, Bool $replyApproval){
                 parent::__construct($sender, $receiver, $title, $content);

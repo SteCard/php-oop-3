@@ -6,7 +6,7 @@
         private $receiver;
         private $title;
         private $content;
-        public static $ringtone = "DRIIIN";
+        public static $ringtone = "WaterDrop";
 
             function __construct(String $sender, String $receiver, String $title, String $content){
                 $this->sender = $sender;

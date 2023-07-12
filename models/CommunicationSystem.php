@@ -14,6 +14,27 @@
                 $this->title = $title;
                 $this->content = $content;
             }
+            
+            // FUNZIONI
+            public function getSender(){
+                return $this->sender;
+            }
+
+            public function getReceiver(){
+                return $this->receiver;
+            }
+
+            public function getTitle(){
+                return $this->title;
+            }
+
+            public function getContent(){
+                return $this->content;
+            }
+
+            public function send(){
+                return "Comunicazione effettuata";
+            }
         
     }
 ?>

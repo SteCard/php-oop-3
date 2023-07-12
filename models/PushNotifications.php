@@ -10,5 +10,24 @@
                 $this->visible = $visible;
                 $this->icon = $icon;
             }
+
+            // FUNZIONI
+            public function getVisible(){
+                return $this->visible;
+            }
+
+            public function getIcon(){
+                return $this->icon;
+            }
+
+            // CLICK
+            public function click(){
+                return "Notifica cliccata";
+            }
+
+            // POLIMORFISMO FUNCTION "SEND"
+            public function send(){
+                return "Notifica inviata";
+            }
     }
 ?>

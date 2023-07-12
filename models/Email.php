@@ -9,5 +9,23 @@
                 parent::__construct($sender, $receiver, $title, $content);
                 $this->deliveryNotification = $deliveryNotification;
             }
+
+            // FUNZIONI
+            public function getDeliveryNotification(){
+                return $this->deliveryNotification;
+            }
+
+            public function forward(){
+                return "Inoltro effettuato";
+            }
+
+            public function print(){
+                return "Stampa effettuata";
+            }
+
+            // POLIMORFISMO
+            public function send(){
+                return "Email inviata";
+            }
     }
 ?>
